@@ -1,0 +1,7 @@
+streamlit
+pandas
+Pillow
+plotly
+numpy
+openpyxl
+seaborn
