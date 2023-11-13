@@ -137,9 +137,9 @@ def servicios_personal(df):
                                                       step='hour',
                                                       stepmode='backward'),
                                                  # 4 hours
-                                                 dict(count=4,
-                                                      label='4h',
-                                                      step='hour',
+                                                 dict(count=3,
+                                                      label='3m',
+                                                      step='month',
                                                       stepmode='backward'),
                                                  # 1 hour
                                                  dict(count=1,
@@ -211,10 +211,10 @@ def servicios_desfase(df):
                                                       label='12h',
                                                       step='hour',
                                                       stepmode='backward'),
-                                                 # 4 hours
-                                                 dict(count=4,
-                                                      label='4h',
-                                                      step='hour',
+                                                 # 3 month
+                                                 dict(count=3,
+                                                      label='3m',
+                                                      step='month',
                                                       stepmode='backward'),
                                                  # 1 hour
                                                  dict(count=1,
@@ -291,6 +291,11 @@ def carga_trabajo(df):
                                                       label='1d',
                                                       step='day',
                                                       stepmode='todate'),
+                                                # 3 month
+                                                 dict(count=3,
+                                                      label='3m',
+                                                      step='month',
+                                                      stepmode='backward'),
                                                  # 12 hours
                                                  dict(count=12,
                                                       label='12h',
