@@ -268,7 +268,7 @@ def carga_trabajo(df):
                         )
 
             # Create a layout with interactive elements and two yaxes
-            layout = go.Layout(height=700, width=1400, font=dict(size=10),
+            layout = go.Layout(height=700, width=1400, font=dict(size=10), hovermode="x unified",
                    plot_bgcolor="#FFF",
                    xaxis=dict(showgrid=False, title='Fecha',
                                         # Range selector with buttons
