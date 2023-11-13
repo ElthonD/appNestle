@@ -247,6 +247,7 @@ def carga_trabajo(df):
                         marker= dict(color = "gray"),
                         hoverinfo = 'text',
                         name='Servicios/Hora',
+                        text= [f'Servicio(s): {x:.0f} por Hora' for x in df['Bitácora']]
                         )
     
             sr_data4 = go.Scatter(x = df.index,
