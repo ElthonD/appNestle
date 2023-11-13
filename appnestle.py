@@ -378,8 +378,8 @@ try:
     grafica_servicios_desfase = servicios_desfase(df4)
 
 
-    #st.markdown("<h3 style='text-align: left;'>Servicios Activos por Hora - Tiempo del Desfase de Atención - Personal requerido</h3>", unsafe_allow_html=True)
-    #grafica_servicios_desfase_personal_requerido = carga_trabajo(df4)
+    st.markdown("<h3 style='text-align: left;'>Servicios Activos por Hora - Tiempo del Desfase de Atención - Personal requerido</h3>", unsafe_allow_html=True)
+    grafica_servicios_desfase_personal_requerido = carga_trabajo(df4)
 
 except NameError as e:
     print("Seleccionar: ", e)
